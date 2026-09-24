@@ -22,4 +22,5 @@ Adapter Objects:
 
 - SmartphoneAdapter - An adapter for plugging a smartphone charger into a standard power outlet. It adapts the SmartphoneCharger to the PowerOutlet interface, translating plugIn() to chargePhone().
 
+Adapter Pattern UML
 <img width="1146" height="753" alt="UMLDiagram" src="https://github.com/user-attachments/assets/862846e6-da41-4353-a2d4-72dda8eae1c8" />
