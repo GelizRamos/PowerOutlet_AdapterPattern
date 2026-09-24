@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         Laptop myLaptop = new Laptop();
-        Refrigerator myFridge = new Refrigerator();
+        Refrigerator ref = new Refrigerator();
         SmartphoneCharger myCharger = new SmartphoneCharger();
 
         PowerOutlet outlet1 = new LaptopAdapter(myLaptop);
-        PowerOutlet outlet2 = new RefrigeratorAdapter(myFridge);
+        PowerOutlet outlet2 = new RefrigeratorAdapter(ref);
         PowerOutlet outlet3 = new SmartphoneAdapter(myCharger);
 
         outlet1.plugIn();
